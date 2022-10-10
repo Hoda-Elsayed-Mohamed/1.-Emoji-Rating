@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #FFF000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    height: 200px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.emoji{
+    width: 50.5px;
+    overflow: hidden;
+  
+}
+.emoji-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1.05em;
+    transition: all 0.3s linear;
+   
+}
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgray;
+    cursor: pointer;
+
+}
+.far{
+    margin-top: 1px;
+}
+
+.fas{
+    margin: 3px;
+}
+
+.fas.fa-star.fa-2x{
+    font-size: 30px;
+}
+
+.active{
+    color: #FFF000;
+}
+.fa-laugh{
+    color: green;
+}
+.fa-smile{
+    color: lightgreen;
+}
+.fa-meh {
+    color: lightblue;
+}
+.fa-frown{
+    color: orange;
+}
+.fa-angry{
+   color: red;
+}
